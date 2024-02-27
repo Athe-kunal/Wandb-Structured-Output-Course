@@ -1,0 +1,127 @@
+{
+    "os": "Linux-5.15.133.1-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "python": "3.11.4",
+    "heartbeatAt": "2024-02-27T00:45:47.039561",
+    "startedAt": "2024-02-27T00:45:46.527967",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/Athe-kunal/Wandb-Structured-Output-Course.git",
+        "commit": "8330fc4a2cdbda774a89fc1294b2ac1ac6424fdd"
+    },
+    "email": "athekunal@gmail.com",
+    "root": "/home/athekunal/Wandb Course/Wandb-Structured-Output-Course",
+    "host": "LAPTOP-QF1FUNPH",
+    "username": "athekunal",
+    "executable": "/home/athekunal/Wandb Course/wandb-env/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 1896.3909999999998,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1896.391,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1896.391,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1896.391,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1896.391,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1896.391,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1896.391,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1896.391,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1896.391,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1896.391,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1896.391,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1896.391,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1896.391,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1896.391,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1896.391,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1896.391,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1896.391,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1006.853931427002,
+            "used": 137.73512268066406
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 7.439765930175781
+    }
+}

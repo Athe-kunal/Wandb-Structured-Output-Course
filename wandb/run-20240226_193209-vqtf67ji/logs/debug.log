@@ -1,0 +1,61 @@
+2024-02-26 19:32:09,706 INFO    MainThread:34154 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-02-26 19:32:09,706 INFO    MainThread:34154 [wandb_setup.py:_flush():76] Configure stats pid to 34154
+2024-02-26 19:32:09,706 INFO    MainThread:34154 [wandb_setup.py:_flush():76] Loading settings from /home/athekunal/.config/wandb/settings
+2024-02-26 19:32:09,706 INFO    MainThread:34154 [wandb_setup.py:_flush():76] Loading settings from /home/athekunal/Wandb Course/Wandb-Structured-Output-Course/wandb/settings
+2024-02-26 19:32:09,706 INFO    MainThread:34154 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-02-26 19:32:09,706 INFO    MainThread:34154 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-02-26 19:32:09,706 INFO    MainThread:34154 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-02-26 19:32:09,706 INFO    MainThread:34154 [wandb_init.py:_log_setup():526] Logging user logs to /home/athekunal/Wandb Course/Wandb-Structured-Output-Course/wandb/run-20240226_193209-vqtf67ji/logs/debug.log
+2024-02-26 19:32:09,706 INFO    MainThread:34154 [wandb_init.py:_log_setup():527] Logging internal logs to /home/athekunal/Wandb Course/Wandb-Structured-Output-Course/wandb/run-20240226_193209-vqtf67ji/logs/debug-internal.log
+2024-02-26 19:32:09,707 INFO    MainThread:34154 [wandb_init.py:init():566] calling init triggers
+2024-02-26 19:32:09,707 INFO    MainThread:34154 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {'model': 'gpt-3.5-turbo', 'temp': 0}
+2024-02-26 19:32:09,707 INFO    MainThread:34154 [wandb_init.py:init():591] re-initializing run, found existing run on stack: 4t5xdp8j
+2024-02-26 19:32:09,708 INFO    MainThread:34154 [wandb_run.py:_finish():1970] finishing run ad-finance/query/4t5xdp8j
+2024-02-26 19:32:09,740 INFO    MainThread:34154 [jupyter.py:save_history():474] saving 33 cells to _session_history.ipynb
+2024-02-26 19:32:09,741 INFO    MainThread:34154 [wandb_run.py:_config_callback():1343] config_cb ('_wandb', 'session_history') code/_session_history.ipynb None
+2024-02-26 19:32:09,748 INFO    MainThread:34154 [jupyter.py:_save_ipynb():384] looking for notebook: None
+2024-02-26 19:32:09,748 INFO    MainThread:34154 [wandb_init.py:_jupyter_teardown():454] cleaning up jupyter logic
+2024-02-26 19:32:09,749 INFO    MainThread:34154 [wandb_run.py:_atexit_cleanup():2210] got exitcode: 0
+2024-02-26 19:32:09,749 INFO    MainThread:34154 [wandb_run.py:_restore():2193] restore
+2024-02-26 19:32:09,749 INFO    MainThread:34154 [wandb_run.py:_restore():2199] restore done
+2024-02-26 19:32:12,129 INFO    MainThread:34154 [wandb_run.py:_footer_history_summary_info():3866] rendering history
+2024-02-26 19:32:12,129 INFO    MainThread:34154 [wandb_run.py:_footer_history_summary_info():3898] rendering summary
+2024-02-26 19:32:12,131 INFO    MainThread:34154 [wandb_run.py:_footer_sync_info():3825] logging synced files
+2024-02-26 19:32:12,215 INFO    MainThread:34154 [wandb_init.py:init():616] starting backend
+2024-02-26 19:32:12,215 INFO    MainThread:34154 [wandb_init.py:init():620] setting up manager
+2024-02-26 19:32:12,216 INFO    MainThread:34154 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-02-26 19:32:12,217 INFO    MainThread:34154 [wandb_init.py:init():628] backend started and connected
+2024-02-26 19:32:12,223 INFO    MainThread:34154 [wandb_run.py:_label_probe_notebook():1295] probe notebook
+2024-02-26 19:32:12,223 INFO    MainThread:34154 [wandb_run.py:_label_probe_notebook():1305] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-02-26 19:32:12,223 INFO    MainThread:34154 [wandb_init.py:init():720] updated telemetry
+2024-02-26 19:32:12,228 INFO    MainThread:34154 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-02-26 19:32:13,389 INFO    MainThread:34154 [wandb_run.py:_on_init():2262] communicating current version
+2024-02-26 19:32:13,475 INFO    MainThread:34154 [wandb_run.py:_on_init():2271] got version response 
+2024-02-26 19:32:13,475 INFO    MainThread:34154 [wandb_init.py:init():804] starting run threads in backend
+2024-02-26 19:32:13,519 INFO    MainThread:34154 [wandb_run.py:_console_start():2241] atexit reg
+2024-02-26 19:32:13,519 INFO    MainThread:34154 [wandb_run.py:_redirect():2096] redirect: wrap_raw
+2024-02-26 19:32:13,519 INFO    MainThread:34154 [wandb_run.py:_redirect():2161] Wrapping output streams.
+2024-02-26 19:32:13,520 INFO    MainThread:34154 [wandb_run.py:_redirect():2186] Redirects installed.
+2024-02-26 19:32:13,520 INFO    MainThread:34154 [wandb_init.py:init():847] run started, returning control to user process
+2024-02-26 19:32:41,281 INFO    MainThread:34154 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-02-26 19:32:41,282 INFO    MainThread:34154 [wandb_setup.py:_flush():76] Configure stats pid to 34154
+2024-02-26 19:32:41,282 INFO    MainThread:34154 [wandb_setup.py:_flush():76] Loading settings from /home/athekunal/.config/wandb/settings
+2024-02-26 19:32:41,282 INFO    MainThread:34154 [wandb_setup.py:_flush():76] Loading settings from /home/athekunal/Wandb Course/Wandb-Structured-Output-Course/wandb/settings
+2024-02-26 19:32:41,282 INFO    MainThread:34154 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-02-26 19:32:41,282 INFO    MainThread:34154 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-02-26 19:32:41,282 INFO    MainThread:34154 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-02-26 19:32:41,282 INFO    MainThread:34154 [wandb_init.py:_log_setup():526] Logging user logs to /home/athekunal/Wandb Course/Wandb-Structured-Output-Course/wandb/run-20240226_193241-a3mqv5x1/logs/debug.log
+2024-02-26 19:32:41,282 INFO    MainThread:34154 [wandb_init.py:_log_setup():527] Logging internal logs to /home/athekunal/Wandb Course/Wandb-Structured-Output-Course/wandb/run-20240226_193241-a3mqv5x1/logs/debug-internal.log
+2024-02-26 19:32:41,282 INFO    MainThread:34154 [wandb_init.py:_jupyter_setup():472] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fba7b81dd90>
+2024-02-26 19:32:41,282 INFO    MainThread:34154 [wandb_init.py:init():566] calling init triggers
+2024-02-26 19:32:41,282 INFO    MainThread:34154 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {'model': 'gpt-3.5-turbo', 'temp': 0}
+2024-02-26 19:32:41,282 INFO    MainThread:34154 [wandb_init.py:init():591] re-initializing run, found existing run on stack: vqtf67ji
+2024-02-26 19:32:41,284 INFO    MainThread:34154 [wandb_run.py:_finish():1970] finishing run ad-finance/query/vqtf67ji
+2024-02-26 19:32:41,284 INFO    MainThread:34154 [wandb_run.py:_atexit_cleanup():2210] got exitcode: 0
+2024-02-26 19:32:41,284 INFO    MainThread:34154 [wandb_run.py:_restore():2193] restore
+2024-02-26 19:32:41,284 INFO    MainThread:34154 [wandb_run.py:_restore():2199] restore done
+2024-02-26 19:32:44,199 INFO    MainThread:34154 [wandb_run.py:_footer_history_summary_info():3866] rendering history
+2024-02-26 19:32:44,199 INFO    MainThread:34154 [wandb_run.py:_footer_history_summary_info():3898] rendering summary
+2024-02-26 19:32:44,200 INFO    MainThread:34154 [wandb_run.py:_footer_sync_info():3825] logging synced files

@@ -1,0 +1,52 @@
+wandb_version: 1
+
+model:
+  desc: null
+  value: gpt-3.5-turbo
+temp:
+  desc: null
+  value: 0
+_wandb:
+  desc: null
+  value:
+    python_version: 3.11.4
+    cli_version: 0.16.3
+    framework: huggingface
+    huggingface_version: 4.38.1
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    start_time: 1708994166.335967
+    t:
+      1:
+      - 1
+      - 5
+      - 11
+      - 49
+      - 53
+      - 55
+      - 75
+      - 86
+      - 95
+      - 105
+      2:
+      - 1
+      - 5
+      - 11
+      - 49
+      - 53
+      - 55
+      - 75
+      - 86
+      - 95
+      - 105
+      3:
+      - 2
+      - 16
+      - 23
+      4: 3.11.4
+      5: 0.16.3
+      6: 4.38.1
+      8:
+      - 1
+      - 5
+      13: linux-x86_64
