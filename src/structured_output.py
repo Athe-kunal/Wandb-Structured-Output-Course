@@ -1,6 +1,6 @@
 import instructor
 
-from openai import AsyncOpenAI
+from openai import AsyncOpenAI, OpenAI
 from typing import List, Literal
 from enum import Enum
 from pydantic import AfterValidator, Field, BaseModel
@@ -8,7 +8,12 @@ from datetime import datetime
 import pandas as pd
 from instructor import llm_validator
 from typing_extensions import Annotated
+from dotenv import load_dotenv
+import openai
+import os
+load_dotenv()
 
+openai.api_key = os.environ['OPENAI_API_KEY']
 
 class TickerYearQuarter(BaseModel):
     chain_of_thought: str = Field(
@@ -23,14 +28,12 @@ class Query(BaseModel):
     rewritten_query: str = Field(description="Rewrite the query and DON'T include the company name, years, quarters and data sources")
     question_ticker_quarter_year: TickerYearQuarter
 
-
-aclient = instructor.patch(AsyncOpenAI())
-
+aclient = instructor.patch(OpenAI())
 FinanceTopicStr = Annotated[
     str,
     AfterValidator(
         llm_validator(
-            "don't talk about any other topic except finance",
+            "don't talk about any other topic except finance and companies financial performance",
             openai_client=aclient,
         )
     ),
@@ -58,9 +61,12 @@ def expand_query(q) -> Query:
 
 def structured_pipeline(question):
     try:
-        AssistantMessage(
-            message=question
-        )
+        # AssistantMessage(
+        #     message=question
+        # )
         return expand_query(question)
     except AttributeError as e:
-        print("This is a financial chatbot, please talk about it financial related topics")
+        return "This is a financial chatbot, please talk about it financial related topics"
+    
+
+

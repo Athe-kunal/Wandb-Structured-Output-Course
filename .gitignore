@@ -1,3 +1,4 @@
 sec-earnings-call
 __pycache__
 wandb
+.env
